@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/banner.png" alt="easy_glow — glow effects for any Flutter widget" width="100%">
+  <img src="https://raw.githubusercontent.com/1shabbirhussain/easy_glow/main/doc/images/banner.png" alt="easy_glow — glow effects for any Flutter widget" width="100%">
 </p>
 
 <p align="center">
@@ -72,14 +72,14 @@ Requires Flutter 3.32+ (Dart 3.8+).
 | `GlowType.box` | `.boxGlow()` | `EasyGlow.box` | Cards, buttons, containers | No |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/showcase.png" alt="Contour, ambient, border sweep and ripple glows in the example app" width="100%">
+  <img src="https://raw.githubusercontent.com/1shabbirhussain/easy_glow/main/doc/images/showcase.png" alt="Contour, ambient, border sweep and ripple glows in the example app" width="100%">
 </p>
 
 ## Usage
 
 ### 1. Contour / neon glow
 
-<img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/contour.gif" alt="Animated contour glow" width="260" align="right">
+<img src="https://raw.githubusercontent.com/1shabbirhussain/easy_glow/main/doc/images/contour.gif" alt="Animated contour glow" width="260" align="right">
 
 Follows the **alpha channel** of the child, so transparent pixels never glow and there is no rectangular box — the glow hugs the exact outline of icons, letters and cut-out images.
 
@@ -123,7 +123,7 @@ ClipRRect(
 
 ### 3. Rotating gradient border
 
-<img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/border.gif" alt="Rotating gradient border glow" width="260" align="right">
+<img src="https://raw.githubusercontent.com/1shabbirhussain/easy_glow/main/doc/images/border.gif" alt="Rotating gradient border glow" width="260" align="right">
 
 An AI / cyberpunk-style multi-color border that rotates around the child, with a soft halo. The child is **not duplicated**, so it is safe on `TextField`s and stateful widgets.
 
@@ -151,7 +151,7 @@ const CircleAvatar(radius: 32).borderGlow(circle: true);
 
 ### 4. Ripple / radar pulse
 
-<img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/ripple.gif" alt="Ripple pulse glow on an avatar" width="260" align="right">
+<img src="https://raw.githubusercontent.com/1shabbirhussain/easy_glow/main/doc/images/ripple.gif" alt="Ripple pulse glow on an avatar" width="260" align="right">
 
 Staggered rings expand and fade behind the child — perfect for "live" indicators.
 
@@ -317,7 +317,7 @@ The painters (`NeonBorderPainter`, `RipplePainter`, `BoxGlowPainter`) are export
 
 ## Example app
 
-The [example](https://github.com/dawateislami/easy_glow/tree/main/example) is an interactive dark-mode playground with live sliders for blur, spread, intensity and speed, color presets, four showcase tabs and a **Code** button that copies the exact snippet for the current settings.
+The [example](https://github.com/1shabbirhussain/easy_glow/tree/main/example) is an interactive dark-mode playground with live sliders for blur, spread, intensity and speed, color presets, four showcase tabs and a **Code** button that copies the exact snippet for the current settings.
 
 ```bash
 cd example
@@ -326,12 +326,12 @@ flutter run
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/playground.gif" alt="Changing blur, spread, intensity and color live in the playground" width="300">
+  <img src="https://raw.githubusercontent.com/1shabbirhussain/easy_glow/main/doc/images/playground.gif" alt="Changing blur, spread, intensity and color live in the playground" width="300">
 </p>
 
 ## Contributing
 
-Issues and pull requests are welcome on [GitHub](https://github.com/dawateislami/easy_glow). Before opening a PR, run:
+Issues and pull requests are welcome on [GitHub](https://github.com/1shabbirhussain/easy_glow). Before opening a PR, run:
 
 ```bash
 dart format .

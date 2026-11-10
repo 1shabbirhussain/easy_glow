@@ -3,10 +3,10 @@ description: >-
   Add neon, contour, ambient backlight, rotating gradient border, ripple pulse
   and box glow effects to any Flutter widget, image, icon or text in one line.
 version: 0.1.0
-homepage: https://github.com/dawateislami/easy_glow
-repository: https://github.com/dawateislami/easy_glow
-issue_tracker: https://github.com/dawateislami/easy_glow/issues
-documentation: https://github.com/dawateislami/easy_glow#readme
+homepage: https://github.com/1shabbirhussain/easy_glow
+repository: https://github.com/1shabbirhussain/easy_glow
+issue_tracker: https://github.com/1shabbirhussain/easy_glow/issues
+documentation: https://github.com/1shabbirhussain/easy_glow#readme
 
 topics:
   - glow
