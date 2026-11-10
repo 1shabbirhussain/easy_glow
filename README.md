@@ -71,13 +71,15 @@ Requires Flutter 3.32+ (Dart 3.8+).
 | `GlowType.ripple` | `.rippleGlow()` | `EasyGlow.ripple` | Live avatars, mic/record buttons, badges | No |
 | `GlowType.box` | `.boxGlow()` | `EasyGlow.box` | Cards, buttons, containers | No |
 
-<!-- SCREENSHOT: add a GIF of the five types, e.g.
-<p align="center"><img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/types.gif" alt="The five glow types" width="100%"></p>
--->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/showcase.png" alt="Contour, ambient, border sweep and ripple glows in the example app" width="100%">
+</p>
 
 ## Usage
 
 ### 1. Contour / neon glow
+
+<img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/contour.gif" alt="Animated contour glow" width="260" align="right">
 
 Follows the **alpha channel** of the child, so transparent pixels never glow and there is no rectangular box — the glow hugs the exact outline of icons, letters and cut-out images.
 
@@ -106,6 +108,8 @@ EasyGlow.neon(
 );
 ```
 
+<br clear="right">
+
 ### 2. Ambient backlight
 
 A YouTube-style "ambient mode": the child's **own colors** bleed outward behind it. No color to pick — it adapts to the image.
@@ -118,6 +122,8 @@ ClipRRect(
 ```
 
 ### 3. Rotating gradient border
+
+<img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/border.gif" alt="Rotating gradient border glow" width="260" align="right">
 
 An AI / cyberpunk-style multi-color border that rotates around the child, with a soft halo. The child is **not duplicated**, so it is safe on `TextField`s and stateful widgets.
 
@@ -141,7 +147,11 @@ const CircleAvatar(radius: 32).borderGlow(circle: true);
 
 > The child is padded by `borderWidth` so the border never covers content. Match `borderRadius` to the child's own corner radius.
 
+<br clear="right">
+
 ### 4. Ripple / radar pulse
+
+<img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/ripple.gif" alt="Ripple pulse glow on an avatar" width="260" align="right">
 
 Staggered rings expand and fade behind the child — perfect for "live" indicators.
 
@@ -156,6 +166,8 @@ const Icon(Icons.wifi_tethering).rippleGlow(ringWidth: 2, waveCount: 4, maxScale
 FloatingActionButton(onPressed: () {}, child: const Icon(Icons.mic))
     .rippleGlow(circle: false, borderRadius: 16, color: Colors.redAccent);
 ```
+
+<br clear="right">
 
 ### 5. Box glow
 
@@ -313,9 +325,9 @@ flutter create . --project-name easy_glow_example   # first time only: generates
 flutter run
 ```
 
-<!-- SCREENSHOT: add a recording of the playground, e.g.
-<p align="center"><img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/playground.gif" alt="easy_glow playground" width="360"></p>
--->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dawateislami/easy_glow/main/doc/images/playground.gif" alt="Changing blur, spread, intensity and color live in the playground" width="300">
+</p>
 
 ## Contributing
 

@@ -28,10 +28,12 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
 
-# Uncomment once you have real screenshots/GIFs in doc/screenshots/.
-# screenshots:
-#   - description: Neon contour glow on icons and text.
-#     path: doc/screenshots/contour.png
-#   - description: Rotating AI-style gradient border glow.
-#     path: doc/screenshots/border_sweep.png
-
+screenshots:
+  - description: Contour (neon) glow on an icon that follows its exact shape.
+    path: doc/screenshots/contour.png
+  - description: Ambient backlight glow bleeding an image's own colors.
+    path: doc/screenshots/ambient.png
+  - description: Rotating gradient border glow on a call-to-action button.
+    path: doc/screenshots/border.png
+  - description: Ripple pulse glow on a live avatar.
+    path: doc/screenshots/ripple.png

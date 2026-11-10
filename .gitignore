@@ -8,3 +8,6 @@ pubspec.lock
 .DS_Store
 doc/api/
 coverage/
+
+# Raw screen recordings (GIFs are generated from these)
+doc/images/*.mp4
