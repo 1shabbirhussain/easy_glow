@@ -1,0 +1,21 @@
+# Keep the published archive small: README images are loaded from GitHub,
+# and example platform folders are regenerated with `flutter create`.
+doc/images/
+example/android/
+example/ios/
+example/linux/
+example/macos/
+example/web/
+example/windows/
+example/build/
+example/.dart_tool/
+example/pubspec.lock
+.dart_tool/
+build/
+pubspec.lock
+.idea/
+*.iml
+.vscode/
+.DS_Store
+doc/api/
+coverage/
